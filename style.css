@@ -32,3 +32,28 @@ p {
 li {
   margin-bottom: 16px;
 }
+
+/* Responsive design */
+@media (max-width: 960px) {
+  body {
+    max-width: 768px;
+  }
+}
+
+@media (max-width: 768px) {
+  body {
+    max-width: 576px;
+  }
+}
+
+@media (max-width: 576px) {
+  body {
+    max-width: 420px;
+  }
+}
+
+@media (max-width: 420px) {
+  body {
+    max-width: 320px;
+  }
+}
