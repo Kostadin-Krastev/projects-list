@@ -26,12 +26,12 @@ h3 {
   font-size: 1.5rem;
 }
 
-h4,
-.table-content-title {
+h4 {
   font-size: 1.3rem;
 }
 
-p {
+p,
+.table-content-title {
   font-size: 1.1rem;
 }
 
@@ -41,6 +41,32 @@ li {
 /* Table of content */
 .table-content {
   margin: 0 auto;
+  padding: 15px;
+  max-width: 400px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  border: 1px solid #e0e0e0;
+}
+
+.table-content-title {
+  margin-bottom: 10px;
+  color: #333;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.table-content ul li {
+  margin-bottom: 8px;
+}
+
+.table-content ul li a {
+  text-decoration: none;
+  color: #1f1f1f;
+}
+
+.table-content ul li a:hover {
+  padding-left: 5px;
 }
 
 /* Responsive design */
