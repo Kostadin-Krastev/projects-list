@@ -1,8 +1,12 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
-  font-family: inter, Arial, sans-serif;
   max-width: 960px;
   margin: 0 auto;
   padding: 20px;
+  font-family: inter, Arial, sans-serif;
   color: #343a40;
 }
 
